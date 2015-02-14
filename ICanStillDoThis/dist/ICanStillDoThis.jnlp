@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ICanStillDoThis.jnlp">
+  <information>
+    <title>ICanStillDoThis</title>
+    <vendor>Awkbak</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ICanStillDoThis.jar" size="9141" download="eager" />
+    <jar href="lib/gson-2.3.1.jar" size="210856" download="eager" />
+    <jar href="lib/riot-api-java.jar" size="130124" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ICanStillDoThis" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="icanstilldothis.ICanStillDoThis"  name="ICanStillDoThis" />
+  <update check="always"/>
+</jnlp>
